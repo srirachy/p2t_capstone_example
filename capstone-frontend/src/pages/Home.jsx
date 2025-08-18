@@ -16,10 +16,10 @@ const Home = () => {
     fetchProducts();
   }, []);
   return (
-    <div>
+    <main className='main-content'>
       <h2>Home</h2>
       <Products products={products} />
-    </div>
+    </main>
   )
 }
 

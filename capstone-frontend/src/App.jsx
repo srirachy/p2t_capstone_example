@@ -7,7 +7,7 @@ import NotFound from './pages/NotFound'
 
 const App = () => {
   return (
-    <section>
+    <section className='app'>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
