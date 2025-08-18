@@ -35,7 +35,9 @@ https://github.com/<github_repo_owner>/<github_repo_name>.git
 
 To get the GitHub URL to clone the repo click on the green button title "<> Code" this will open a dropdown and you can copy the URL to clone this git repository to your system.
 
-![Clone GitHub URL](doc/images/CloneGitHubURL.png)
+![Clone GitHub URL](doc/images/CloneGitHubUrl.png)
+
+3. Take a look at [Capstone Backend README](capstone-backend/README.md) and follow the directions to set up the environment variables to install a MongoDB database for the project
 
 ## Running Project
 1. You will have to install your node packages from `package.json` to `node_modules`
