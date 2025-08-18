@@ -19,6 +19,19 @@ Optional Features
 - Node
 - NPM
 
+## Checking Prerequisites
+1. Check that you have Node and NPM installed, open a terminal and run
+
+```sh
+node --version
+```
+
+```sh
+npm --version
+```
+
+If you get an error then you will need to go to [Download Node](https://nodejs.org/en/download) to download Node.js for your operating system.
+
 ## Project Structure
 ```
 src/

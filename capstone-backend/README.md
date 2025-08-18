@@ -21,6 +21,27 @@ Optional Features
 - NPM
 - MongoDB Atlas Account
 
+## Checking Prerequisites
+1. Check that you have Node and NPM installed, open a terminal and run
+
+```sh
+node --version
+```
+
+```sh
+npm --version
+```
+
+If you get an error then you will need to go to [Download Node](https://nodejs.org/en/download) to download Node.js for your operating system.
+
+2. You will need to have a MongoDB Atlas Account with a MongoDB Cluster set up. To accomplish this go to [MongoDB Atlas Account Creation](https://account.mongodb.com/account/register) to create an account and create a cluster. Once you create your cluster you should eventually see a connection string with your credentials to be able to connect, below is an example of what your credendtials should look like.
+
+
+![MongoDB Credentials Example](doc/images/MongoDBCreds.png)
+
+**You will need to replace <db_username> with the username of your CREATED user (not your actual MongoDB login credentials) and replace <db_password> with the password of your CREATED user (not your actual MongoDB login credentials)**
+
+
 ## Installation
 
 **Set up environment variables**
