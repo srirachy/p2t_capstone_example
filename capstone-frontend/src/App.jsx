@@ -11,6 +11,9 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        {/* Create your new routes in your application and place them below this comment */}
+        
+        {/* Create your new routes in your application and place them above this comment */}
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
