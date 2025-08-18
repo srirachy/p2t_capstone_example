@@ -45,7 +45,12 @@ If you get an error then you will need to go to [Download Node](https://nodejs.o
 ## Installation
 
 **Set up environment variables**
-- Create a `.env` file in the root directory and create these following variables
+1. Create a `.env` file in the root directory of the `capstone-backend` project below is an image of what your `capstone-backend` project should look like
+
+
+![Capstone Backend Project Structure](doc/images/CapstoneBackendProjectDirectory.png)
+
+2. Inside of the `.env` file create these following variables
 ```
 DB_URL="mongodb atlas connection string" # replace with your MongoDB Connection String
 ```
