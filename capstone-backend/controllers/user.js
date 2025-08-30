@@ -1,5 +1,5 @@
 import User from '../models/User.js';
 
-export const registerUser = () => {};
+export const registerUser = async (req, res) => {};
 
-export const loginUser = () => {};
+export const loginUser = async (req, res) => {};
