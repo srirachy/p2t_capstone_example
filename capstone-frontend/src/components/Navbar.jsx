@@ -21,7 +21,7 @@ const Navbar = () => {
         <Link to={'/admin/product/create'}>Create Product</Link>
       </div>
       <div className='auth-container'>
-        {!isLoggedIn ? <Link to={'/login'}>Login</Link> : <button onClick={() => {handleLogout()}}>Logout</button>}
+        {!isLoggedIn ? <Link to={'/auth'}>Login</Link> : <button onClick={() => {handleLogout()}}>Logout</button>}
       </div>
     </nav>
   )
